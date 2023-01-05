@@ -1,0 +1,63 @@
+$bgColor: #232946;
+$headLine: #fffffe;
+$buttonTxt: #232946;
+$buttonColor:#eebbc3;
+$paragraph:#b8c1ec;
+.maindiv {
+  
+}
+body {
+  background-color: $bgColor;
+  margin: 0;
+  border: 0;
+}
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+// .background {
+//   background-color: $bgColor;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+// }
+.button {
+  background-color: $buttonColor;
+  color: $buttonTxt;
+
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  // background-color: #fffffe;
+}
+.divButton { 
+  align-self: center;
+  flex-direction: column;
+  display: flex;
+  color: #000;
+  //  background-color: #fffffe;
+}
+.divInput {
+  align-self: center;
+  margin: 10px;
+}
+.divSelect {
+  margin-right: 7px;
+}
+.loading {
+  align-self: center;
+}
+.table {
+  background-color: $paragraph ;
+  color: $bgColor;
+  font-weight: bold;
+  text-align: center;
+}
+.divHeader {
+  background-color:$paragraph ;
+
+}
